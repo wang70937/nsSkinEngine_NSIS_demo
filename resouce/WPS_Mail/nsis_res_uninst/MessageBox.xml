@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="312,216" caption="0,0,0,50"  showshadow="true" shadowimage="shadow.png" shadowcorner="23,13,23,33">
+    <Font name="微软雅黑" size="14" bold="false" italic="false" default="true"/>
+    <Font name="微软雅黑" size="16" bold="false" italic="false" />
+    <HorizontalLayout name="VerticalLayoutUI1" width="312" height="216" bkimage="MessageBoxBg.png">
+        <Control width="36" />
+        <VerticalLayout>
+            <HorizontalLayout height="32">
+                <Label name="TitleLab1" text="提醒" padding="106,0,0,0" textcolor="#FFFFFFFF" width="218"/>
+                <!-- <Button name="CloseBtn" width="22" height="22" normalimage="SysCloseBtnNormal.png" hotimage="SysCloseBtnHover.png" pushedimage="SysCloseBtnPressed.png" />  -->
+            </HorizontalLayout>
+            <Control height="40" />
+            <HorizontalLayout height="32">
+                <Label name="TextLab" height="32" textcolor="#FFC0C0C0" padding="14,0,0,0" font="1"/>
+            </HorizontalLayout> 
+            <Control height="22" />
+            <HorizontalLayout height="42">
+                <Button name="YESBtn" text="确定" textcolor="#FF333333" width="112" height="32" normalimage="WNormalBtnNormal.png" hotimage="WNormalBtnHover.png" pushedimage="WNormalBtnPushed.png" /> 
+                <Button name="NOBtn" text="取消" textcolor="#FFFFFFFF" width="112" height="32" padding="16,0,0,0" normalimage="NormalBtnNormal.png" hotimage="NormalBtnHover.png" pushedimage="NormalBtnPushed.png" /> 
+            </HorizontalLayout>
+        <Control width="36" />
+        </VerticalLayout>
+        <Control width="36" />
+    </HorizontalLayout>
+</Window>

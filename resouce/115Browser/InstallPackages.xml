@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="457,462" sizebox="0,0,0,0" caption="0,0,0,240" showshadow="true" shadowactiveimage="shadow_active.png" shadowdeactiveimage="shadow_deactive.png" shadowcorner="28,28,28,28">
+    <Font name="宋体" size="12" bold="false" italic="false" default="true"/>
+    <Font name="宋体" size="16" bold="false" italic="false" />
+    <Font name="宋体" size="12" bold="false" italic="false" />
+    <Font name="宋体" size="12" bold="true" italic="false" />
+    <Font name="宋体" size="12" bold="false" italic="false" />
+    <Font name="宋体" size="14" bold="true" italic="false" />
+	<Default name="CheckBox" value="textcolor=&quot;#FF9ca1a4&quot; disabledtextcolor=&quot;#FF888888&quot; width=&quot;100&quot; height=&quot;13&quot; textpadding=&quot;20,1,0,0&quot; align=&quot;left&quot; normalimage=&quot;file='checkbox_unchecked_normal.png' dest='0,0,13,13'&quot; hotimage=&quot;file='checkbox_unchecked_hover.png' dest='0,0,13,13'&quot; pushedimage=&quot;file='checkbox_unchecked_pressed.png' dest='0,0,13,13'&quot; disabledimage=&quot;file='check_disable.png' dest='0,0,13,13'&quot; selectedimage=&quot;file='checkbox_checked_normal.png' dest='0,0,13,13'&quot; selectedhotimage=&quot;file='checkbox_checked_hover.png' dest='0,0,13,13'&quot; selectedpushedimage=&quot;file='checkbox_checked_pressed.png' dest='0,0,13,13'&quot; autocalcwidth=&quot;true&quot;"/>
+    <TabLayout name="windowbk" bkimage="bg.png">
+		<VerticalLayout>
+			<VerticalLayout height="300" bkimage="BG_install_uninstall.png">
+				<HorizontalLayout height="24">
+					<Button name="InstallTab_sysCloseBtn" float="true" pos="433,0,0,0" width="24" height="24" normalimage="popup_button_close_normal.png" hotimage="popup_button_close_hover.png" pushedimage="popup_button_close_pressed.png" /> 
+				</HorizontalLayout>
+				<Control height="164" />
+					<WebBrowser name="pop_ad_browser" float="false" clsid="{8856F961-340A-11D0-A96B-00C04FD705A2}" delaycreate="false" />
+				<Control />
+			</VerticalLayout>
+			<AnimationTabLayout name="WizardTab" height="162"  padding="20,0,20,0">
+				<VerticalLayout>
+					<VerticalLayout>
+						<Control />
+						<HorizontalLayout>
+							<Control />
+							<Button name="InstallBtn" text="立即安装" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" width="112" height="32" normalimage="NormalBtnNormal.png" hotimage="NormalBtnHover.png" pushedimage="NormalBtnPushed.png" disabledimage="NormalBtnDisabled.png" /> 
+							<Control />
+						</HorizontalLayout>
+						<Control />
+					</VerticalLayout>
+					<HorizontalLayout height="13">
+						<CheckBox name="defaultAppCheckBox" text="设置默认浏览器" textcolor="#FF333333" padding="0,0,0,0" width="120"/>
+						<CheckBox name="acceptCheckBox" text="已阅读并接受" textcolor="#FF333333" padding="10,0,0,0" width="80"/>
+						<Button name="acceptBtn" text="使用许可协议" textcolor="#FF2E95F5" width="100" height="13" /> 
+						<Control height="13" />
+						<CheckBox name="CustomOptionsCheckBox" text="自定义" textcolor="#FF000000" padding="0,0,0,0" width="60" disabledtextcolor="#FF8B8B8B" textpadding="20,0,0,0" align="left" normalimage="file='icon_custom_expand.png' dest='0,0,9,9'" hotimage="file='icon_custom_expand.png' dest='0,0,9,9'" pushedimage="file='icon_custom_expand.png' dest='0,0,9,9'" disabledimage="file='check_disable.png' dest='0,0,9,9'" selectedimage="file='icon_custom_shouqi.png' dest='0,0,9,9'" selectedhotimage="file='icon_custom_shouqi.png' dest='0,0,9,9'" selectedpushedimage="file='icon_custom_shouqi.png' dest='0,0,9,9'" autocalcwidth="true"/>
+					</HorizontalLayout>
+				</VerticalLayout>
+				<VerticalLayout>
+					<Control />
+					<Label name="progressDetail" text="准备安装..." width="200" height="22" textcolor="#FF29bd8b" align="center" />
+					<Progress name="InstallProgressBar" height="3" bkimage="file='progress_gray.png' corner='3,0,7,0'" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" foreimage="file='progress_green.png' corner='3,0,70,0'" min="0" max="100" value="0" hor="true" />
+					<Label name="progressText" text="0%" width="200" height="22" textcolor="#FF29bd8b" font="3" align="center" />
+					<Control />
+				</VerticalLayout>
+				<VerticalLayout>
+					<Control />
+					<HorizontalLayout>
+						<Control />
+						<Button name="CompleteTab_CompleteBtn" text="立即启动" textcolor="#FFFFFFFF" width="112" height="32" normalimage="NormalBtnNormal.png" hotimage="NormalBtnHover.png" pushedimage="NormalBtnPushed.png" /> 
+						<Control />
+					</HorizontalLayout>
+					<Control />
+				</VerticalLayout>
+			</AnimationTabLayout>
+			<VerticalLayout name="customVer" height="146" padding="20,0,20,0">
+				<VerticalLayout>
+					<Control />
+					<HorizontalLayout>
+						<Label text="安装到：" width="45" />
+						<Edit name="InstallTab_InstallFilePath" hinttext="普通" height="20" bordersize="0" textcolor="#FF000000" normalimage="file='edit.png' corner='4,4,4,4'" hotimage="file='edit.png' corner='4,4,4,4'" focusedimage="file='edit.png' corner='4,4,4,4'" menu="true"/>
+						<Button name="InstallTab_SelectFilePathBtn" width="18" height="18" normalimage="icon_folder.png" hotimage="icon_folder.png" pushedimage="icon_folder.png"  padding="10,0,0,0"/> 
+					</HorizontalLayout>
+					<HorizontalLayout height="22" padding="45,0,0,0">
+						<Label text="所需空间：" padding="0,0,0,0" width="60" height="22" textcolor="#FF333333" font="1" font="2"/>
+						<Label name="InstallTab_NeedSpace" text="55MB" padding="0,0,0,0" width="88" height="22" textcolor="#FF333333" font="1" font="2"/>
+						<Label text="可用空间：" padding="0,0,0,0" width="60" height="22" textcolor="#FF333333" font="1" font="2"/>
+						<Label name="InstallTab_FreeSpace" text="#GB" padding="0,0,0,0" width="70" height="22" textcolor="#FF333333" font="1" font="2"/>
+					</HorizontalLayout>
+					<Control />
+				</VerticalLayout>
+				<VerticalLayout height="40" padding="0,0,0,0">
+					<HorizontalLayout>
+						<CheckBox name="deskShortCheckBox" text="添加到桌面快捷方式" textcolor="#FF333333" width="250"/>
+						<CheckBox name="2345CheckBox" text="将2345设为主页" textcolor="#FF333333" width="120"/>
+					</HorizontalLayout>
+					<HorizontalLayout padding="0,10,0,0">
+						<CheckBox name="autoCheckBox" text="添加到系统快捷启动" textcolor="#FF333333" width="250"/>
+						<CheckBox name="userFuckCheckBox" text="加入用户体验计划" textcolor="#FF333333" width="120"/>
+					</HorizontalLayout>
+				</VerticalLayout>
+			</VerticalLayout>
+		</VerticalLayout>
+		<VerticalLayout padding="10,10,10,0" bkimage="1-1.png">
+			<RichEdit name="acceptInfo" inset="10,10,10,10" bkimage="file='license_bg.png' corner='10,10,10,10'" hinttext="普通" vscrollbar="true" textcolor="#00999999" padding="10,10,10,10" readonly="true" />
+			<HorizontalLayout height="32" padding="0,0,0,10">
+				<Control />
+				<Button name="okAcceptBtn" text="确定" textcolor="#FFFFFFFF" width="112" height="32" normalimage="NormalBtnNormal.png" hotimage="NormalBtnHover.png" pushedimage="NormalBtnPushed.png" />
+				<Control />				
+			</HorizontalLayout>
+		</VerticalLayout>
+	</TabLayout>
+</Window>

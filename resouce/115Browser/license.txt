@@ -1,0 +1,4 @@
+Hello friend
+Do not use cumbersome NSIS code to write interface.
+Try using nsSkinEngine, you will feel the simple 
+production of the installation package

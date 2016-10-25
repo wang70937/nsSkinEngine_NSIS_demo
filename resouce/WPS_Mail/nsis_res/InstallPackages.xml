@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="696,414" sizebox="4,4,4,4" maxinfo="696,414" mininfo="696,414" caption="0,0,0,150" bktrans="true">
+    <Font name="微软雅黑" size="14" bold="false" italic="false" default="true"/>
+    <Font name="微软雅黑" size="16" bold="false" italic="false" />
+    <Font name="微软雅黑" size="12" bold="false" italic="false" />
+    <Font name="微软雅黑" size="12" bold="true" italic="false" />
+    <Font name="微软雅黑" size="12" bold="false" italic="false" />
+    <Font name="微软雅黑" size="14" bold="true" italic="false" />
+<Default name="VScrollBar" value="button1normalimage=&quot;file=&apos;scroll.png&apos; source=&apos;0,0,16,16&apos;&quot; button1hotimage=&quot;file=&apos;scroll.png&apos; source=&apos;0,0,16,16&apos; mask=&apos;#FFFF00FF&apos;&quot; button1pushedimage=&quot;file=&apos;scroll.png&apos; source=&apos;0,16,16,32&apos; mask=&apos;#FFFF00FF&apos;&quot; button1disabledimage=&quot;file=&apos;scroll.png&apos; source=&apos;0,0,16,16&apos; mask=&apos;#FFFF00FF&apos;&quot; button2normalimage=&quot;file=&apos;scroll.png&apos; source=&apos;0,32,16,48&apos; mask=&apos;#FFFF00FF&apos;&quot; button2hotimage=&quot;file=&apos;scroll.png&apos; source=&apos;0,32,16,48&apos; mask=&apos;#FFFF00FF&apos;&quot; button2pushedimage=&quot;file=&apos;scroll.png&apos; source=&apos;0,48,16,64&apos; mask=&apos;#FFFF00FF&apos;&quot; button2disabledimage=&quot;file=&apos;scroll.png&apos; source=&apos;0,32,16,48&apos; mask=&apos;#FFFF00FF&apos;&quot; thumbnormalimage=&quot;file=&apos;scroll.png&apos; source=&apos;0,64,16,80&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; thumbhotimage=&quot;file=&apos;scroll.png&apos; source=&apos;0,64,16,80&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; thumbpushedimage=&quot;file=&apos;scroll.png&apos; source=&apos;0,112,16,128&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; thumbdisabledimage=&quot;file=&apos;scroll.png&apos; source=&apos;0,64,16,80&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; railnormalimage=&quot;file=&apos;scroll.png&apos; source=&apos;0,80,16,96&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; railhotimage=&quot;file=&apos;scroll.png&apos; source=&apos;0,80,16,96&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; railpushedimage=&quot;file=&apos;scroll.png&apos; source=&apos;0,96,16,112&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; raildisabledimage=&quot;file=&apos;scroll.png&apos; source=&apos;0,112,16,128&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; bknormalimage=&quot;file=&apos;scroll.png&apos; source=&apos;0,128,16,146&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; bkhotimage=&quot;file=&apos;scroll.png&apos; source=&apos;0,128,16,146&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; bkpushedimage=&quot;file=&apos;scroll.png&apos; source=&apos;0,128,16,146&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; bkdisabledimage=&quot;file=&apos;scroll.png&apos; source=&apos;0,128,16,146&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; " />
+<Default name="CheckBox" value="textcolor=&quot;#FF9ca1a4&quot; disabledtextcolor=&quot;#FF888888&quot; width=&quot;100&quot; height=&quot;18&quot; textpadding=&quot;30,1,0,0&quot; align=&quot;left&quot; normalimage=&quot;file='check_normal.png' dest='0,0,18,18'&quot; hotimage=&quot;file='check_hover.png' dest='0,0,18,18'&quot; pushedimage=&quot;file='check_down.png' dest='0,0,18,18'&quot; disabledimage=&quot;file='check_disable.png' dest='0,0,18,18'&quot; selectedimage=&quot;file='checked_normal.png' dest='0,0,18,18'&quot; selectedhotimage=&quot;file='checked_hover.png' dest='0,0,18,18'&quot; selectedpushedimage=&quot;file='checked_down.png' dest='0,0,18,18'&quot; autocalcwidth=&quot;true&quot;"/>
+    <VerticalLayout name="windowbk" width="696" height="414" bkimage="step/1.png">
+		<HorizontalLayout width="640" height="34" padding="56,54,0,0">
+	    	<Label name="TitleText" bkimage="SimpChinese\title.png" padding="20,15,0,0" width="117" height="14"/>
+	    	<Button name="InstallTab_sysCloseBtn" float="true" pos="605,10,0,0" width="24" height="25" normalimage="SysCloseBtnNormal.png" hotimage="SysCloseBtnHover.png" pushedimage="SysCloseBtnPressed.png" /> 
+	    </HorizontalLayout>
+		<AnimationTabLayout name="WizardTab" width="640" height="314" padding="56,0,0,0">
+			<VerticalLayout>
+				<Control />
+				<Label name="welcomeText" bkimage="SimpChinese\welcome.png" padding="274,0,0,0" width="293" height="34"/>
+				<Control />
+				<HorizontalLayout width="640" height="24">
+					<Control />
+					<Button name="WelcomeTab_NextBtn" width="78" height="24" normalimage="SimpChinese\NextBtnNormal.png" hotimage="SimpChinese\NextBtnHover.png" pushedimage="SimpChinese\NextBtnPressed.png" /> 
+					<Control width="10"/>
+				</HorizontalLayout>
+			</VerticalLayout>
+			<VerticalLayout>
+				<VerticalLayout padding="274,48,13,0">
+					<Label name="installPathText" bkimage="SimpChinese\path.png" width="213" height="33"/>
+					<Label text="即将安装WPS邮箱到下列文件夹" textcolor="#FF333333" font="2"/>
+					<Label text="如果您要在其它位置安装此产品，请单击“浏览”." textcolor="#FF333333" font="2"/>
+					<Edit name="InstallTab_InstallFilePath" hinttext="普通" height="24" bordersize="0" bkcolor="#FF666666" textcolor="#FFFFFFFF" padding="0,0,0,0" menu="true"/>
+					<HorizontalLayout height="22">
+						<Label text="所需空间：" padding="0,0,0,0" width="60" height="22" textcolor="#FF333333" font="1" font="2"/>
+						<Label name="InstallTab_NeedSpace" text="55MB" padding="0,0,0,0" width="88" height="22" textcolor="#FF333333" font="1" font="2"/>
+						<Label text="可用空间：" padding="0,0,0,0" width="60" height="22" textcolor="#FF333333" font="1" font="2"/>
+						<Label name="InstallTab_FreeSpace" text="#GB" padding="0,0,0,0" width="70" height="22" textcolor="#FF333333" font="1" font="2"/>
+						<Control />
+						<Button name="InstallTab_SelectFilePathBtn" width="33" height="12" padding="0,5,0,0" normalimage="SimpChinese\btn_preview.png" hotimage="SimpChinese\btn_preview_hover.png" pushedimage="SimpChinese\btn_preview_pressed.png"/> 
+					</HorizontalLayout>
+				</VerticalLayout>
+				<HorizontalLayout width="640" height="24">
+					<Control />
+					<Button name="InstallTab_InstallBtn" width="78" height="24" normalimage="SimpChinese\NextBtnNormal.png" hotimage="SimpChinese\NextBtnHover.png" pushedimage="SimpChinese\NextBtnPressed.png" /> 
+					<Control width="10"/>
+				</HorizontalLayout>
+			</VerticalLayout>
+			<VerticalLayout>
+				<VerticalLayout padding="274,48,13,0">
+					<Label name="installText" bkimage="SimpChinese\installation.png" width="140" height="33"/>
+					<Label name="progressTip" text="正在安装WPS邮箱" padding="0,21,0,0" width="200" height="22" textcolor="#FF333333" font="4"/>
+					<Progress name="InstallProgressBar" height="3" bkimage="file='ProgressBarBg.png' corner='3,0,7,0'" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" foreimage="file='ProgressBar.png' corner='3,0,70,0'" min="0" max="100" value="0" hor="true" />
+					<Label name="progressText" text="0%" width="200" height="22" textcolor="#FF29bd8b" font="3"/>
+				</VerticalLayout>
+			</VerticalLayout>
+			<VerticalLayout>
+				<VerticalLayout padding="274,48,13,0">
+					<Control />
+					<Label name="completeText" bkimage="SimpChinese\complete.png" width="287" height="34"/>
+					<HorizontalLayout height="30" padding="0,10,0,0" >
+						<CheckBox name="CompleteTab_RunAppCheckBox" text="运行WPS邮箱" textcolor="#FF333333" padding="0,0,0,10" width="150"/>
+						<CheckBox name="CompleteTab_AutoRunCheckBox" text="开机自动启动" textcolor="#FF333333" padding="0,0,0,0" width="150"/>
+					</HorizontalLayout>
+					<Control />
+				</VerticalLayout>
+				<HorizontalLayout width="640" height="24">
+					<Control />
+					<Button name="CompleteTab_CompleteBtn" width="35" height="17" normalimage="SimpChinese\btn_done.png" hotimage="SimpChinese\btn_done_hover.png" pushedimage="SimpChinese\btn_done_pressed.png" /> 
+					<Control width="10"/>
+				</HorizontalLayout>
+			</VerticalLayout>
+		</AnimationTabLayout>
+	</VerticalLayout>
+</Window>

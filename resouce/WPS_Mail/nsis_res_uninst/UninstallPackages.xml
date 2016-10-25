@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="656,670" sizebox="4,4,4,4" maxinfo="656,670" mininfo="656,670" caption="0,0,0,150"  showshadow="true" shadowimage="shadow.png" shadowcorner="23,13,23,33">
+    <Font name="微软雅黑" size="14" bold="false" italic="false" default="true"/>
+    <Font name="微软雅黑" size="16" bold="false" italic="false" />
+    <Font name="微软雅黑" size="12" bold="false" italic="false" />
+    <Font name="微软雅黑" size="20" bold="false" italic="true" />
+    <Font name="微软雅黑" size="12" bold="false" italic="true" />
+    <Font name="微软雅黑" size="14" bold="true" italic="false" />
+	<Font name="微软雅黑" size="16" bold="true"/>
+<Default name="VScrollBar" value="button1normalimage=&quot;file=&apos;scroll.png&apos; source=&apos;0,0,16,16&apos;&quot; button1hotimage=&quot;file=&apos;scroll.png&apos; source=&apos;0,0,16,16&apos; mask=&apos;#FFFF00FF&apos;&quot; button1pushedimage=&quot;file=&apos;scroll.png&apos; source=&apos;0,16,16,32&apos; mask=&apos;#FFFF00FF&apos;&quot; button1disabledimage=&quot;file=&apos;scroll.png&apos; source=&apos;0,0,16,16&apos; mask=&apos;#FFFF00FF&apos;&quot; button2normalimage=&quot;file=&apos;scroll.png&apos; source=&apos;0,32,16,48&apos; mask=&apos;#FFFF00FF&apos;&quot; button2hotimage=&quot;file=&apos;scroll.png&apos; source=&apos;0,32,16,48&apos; mask=&apos;#FFFF00FF&apos;&quot; button2pushedimage=&quot;file=&apos;scroll.png&apos; source=&apos;0,48,16,64&apos; mask=&apos;#FFFF00FF&apos;&quot; button2disabledimage=&quot;file=&apos;scroll.png&apos; source=&apos;0,32,16,48&apos; mask=&apos;#FFFF00FF&apos;&quot; thumbnormalimage=&quot;file=&apos;scroll.png&apos; source=&apos;0,64,16,80&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; thumbhotimage=&quot;file=&apos;scroll.png&apos; source=&apos;0,64,16,80&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; thumbpushedimage=&quot;file=&apos;scroll.png&apos; source=&apos;0,112,16,128&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; thumbdisabledimage=&quot;file=&apos;scroll.png&apos; source=&apos;0,64,16,80&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; railnormalimage=&quot;file=&apos;scroll.png&apos; source=&apos;0,80,16,96&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; railhotimage=&quot;file=&apos;scroll.png&apos; source=&apos;0,80,16,96&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; railpushedimage=&quot;file=&apos;scroll.png&apos; source=&apos;0,96,16,112&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; raildisabledimage=&quot;file=&apos;scroll.png&apos; source=&apos;0,112,16,128&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; bknormalimage=&quot;file=&apos;scroll.png&apos; source=&apos;0,128,16,146&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; bkhotimage=&quot;file=&apos;scroll.png&apos; source=&apos;0,128,16,146&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; bkpushedimage=&quot;file=&apos;scroll.png&apos; source=&apos;0,128,16,146&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; bkdisabledimage=&quot;file=&apos;scroll.png&apos; source=&apos;0,128,16,146&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; " />
+<Default name="CheckBox" value="textcolor=&quot;#FF9ca1a4&quot; disabledtextcolor=&quot;#FF888888&quot; width=&quot;100&quot; height=&quot;18&quot; textpadding=&quot;30,1,0,0&quot; align=&quot;left&quot; normalimage=&quot;file='check_normal.png' dest='0,0,18,18'&quot; hotimage=&quot;file='check_hover.png' dest='0,0,18,18'&quot; pushedimage=&quot;file='check_down.png' dest='0,0,18,18'&quot; disabledimage=&quot;file='check_disable.png' dest='0,0,18,18'&quot; selectedimage=&quot;file='checked_normal.png' dest='0,0,18,18'&quot; selectedhotimage=&quot;file='checked_hover.png' dest='0,0,18,18'&quot; selectedpushedimage=&quot;file='checked_down.png' dest='0,0,18,18'&quot; autocalcwidth=&quot;true&quot;"/>
+	<VerticalLayout bkcolor="#FF3B3E40">
+		<HorizontalLayout float="false" height="32">
+			<HorizontalLayout name="HorizontalLayoutUI1" float="false">
+				<Label text="WPS邮箱卸载向导" align="center" textcolor="#00A9A9A9" font="0"/>
+			</HorizontalLayout>
+			<HorizontalLayout name="sysBtnH" float="true" pos="624,8,0,0" height="24" width="24">
+				<Button name="sysCloseBtn" textcolor="#00000000" normalimage="res='SysCloseBtnNormal.png' corner='4,4,4,4'" hotimage="res='SysCloseBtnHover.png' corner='4,4,4,4'" pushedimage="res='SysCloseBtnPressed.png' corner='4,4,4,4'" width="24" height="24"/>
+			</HorizontalLayout>
+		</HorizontalLayout>
+		<HorizontalLayout height="128" padding="0,20,0,0">
+			<Control />
+			<Control bkimage="uninstall_avatar.png" width="128" height="128"/>
+			<Control />
+		</HorizontalLayout>
+		<AnimationTabLayout name="WizardTab" padding="4,0,4,4">
+			<VerticalLayout>
+				<Label text="您遇到了什么问题吗？" align="center" textcolor="#00FFFFFF" font="1"/>
+				<Label text="建议先尝试一下我们的解决方案。" align="center" textcolor="#00FFFFFF" font="1"/>
+				<VerticalLayout>
+					<Control height="50"/>
+					<HorizontalLayout height="142">
+						<VerticalLayout>
+							<Control />
+							<HorizontalLayout height="32">
+								<Label text="无法登录企业邮箱" align="right" textcolor="#00FFFFFF"/>
+								<Button name="question1btn" text="解决问题 >" textcolor="#00BE4343"  width="90"/>
+							</HorizontalLayout>
+							<HorizontalLayout height="32">
+								<Label text="无法登陆QQ邮箱" align="right" textcolor="#00FFFFFF"/>
+								<Button name="question2btn" text="解决问题 >" textcolor="#00BE4343"  width="90"/>
+							</HorizontalLayout>
+							<HorizontalLayout height="32">
+								<Label text="在笔记本电脑上运行缓慢" align="right" textcolor="#00FFFFFF"/>
+								<Button name="question3btn" text="解决问题 >" textcolor="#00BE4343"  width="90"/>
+							</HorizontalLayout>
+							<Control />
+						</VerticalLayout>
+						<Label bkcolor="#FF626566" width="1"/>
+						<VerticalLayout padding="10,0,0,0">
+							<Control />
+							<CheckBox name="SavaData_CheckBox" text="保留已下载的邮件，方便下次使用" textcolor="#00FFFFFF" width="250"/>
+							<Control />
+						</VerticalLayout>
+					</HorizontalLayout>
+					<Control />
+				</VerticalLayout>
+				<HorizontalLayout height="35">
+					<Label text="您还可以" align="right" textcolor="#00FFFFFF"/>
+					<Button name="contactbtn" text="联系我们" textcolor="#00BE4343" width="64"/>
+					<Label text="内部反馈QQ群：285608141" align="left" textcolor="#00FFFFFF" width="196"/>
+				</HorizontalLayout>
+				<VerticalLayout bkcolor="#FF474B4E" height="85">
+					<Control />
+					<HorizontalLayout height="32" padding="0,0,20,0">
+						<Control />
+						<Button name="okUninstallBtn" text="残忍卸载" textcolor="#FFA2A2A2" width="112" height="32" normalimage="WNormalBtnNormal.png" hotimage="WNormalBtnHover.png" pushedimage="WNormalBtnPushed.png" disabledimage="NormalBtnDisabled.png" font="6"/> 
+						<Button name="cancelUninstallBtn" text="取消卸载" textcolor="#FFFFFFFF" width="112" height="32" padding="16,0,0,0" normalimage="NormalBtnNormal.png" hotimage="NormalBtnHover.png" pushedimage="NormalBtnPushed.png" disabledimage="NormalBtnDisabled.png" font="6"/> 
+					</HorizontalLayout>
+					<Control />
+				</VerticalLayout>
+			</VerticalLayout>
+			<VerticalLayout>
+				<Label text="感谢您的一路陪伴，期待不久与您再会！" align="center" textcolor="#00FFFFFF" font="1"/>
+				<VerticalLayout padding="58,55,4,4">
+					<Label name="progressText" text="0%" padding="0,34,0,10" width="200" height="22" textcolor="#FFDE463B" font="3"/>
+					<HorizontalLayout height="6">
+						<Progress name="UnInstallProgressBar" width="528" height="6" bkimage="file='ProgressBarBg.png' corner='3,0,3,0'" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" foreimage="file='ProgressBar.png' corner='3,0,3,0'" min="0" max="100" value="0" hor="true" />
+					</HorizontalLayout>
+					<Label name="progressTip" text="正在卸载WPS邮箱" padding="0,21,0,0" width="200" height="22" textcolor="#FF00d7c8" font="4"/>
+				</VerticalLayout>
+				<VerticalLayout bkcolor="#FF474B4E" height="85">
+					<Control />
+					<HorizontalLayout height="32" padding="0,0,20,0">
+						<Control />
+						<Button name="okUninstallBtn2" text="残忍卸载" textcolor="#FFA2A2A2" width="112" height="32" normalimage="WNormalBtnNormal.png" hotimage="WNormalBtnHover.png" pushedimage="WNormalBtnPushed.png" disabledimage="NormalBtnDisabled.png" font="6"/> 
+						<Button name="cancelUninstallBtn2" text="取消卸载" textcolor="#FFFFFFFF" width="112" height="32" padding="16,0,0,0" normalimage="NormalBtnNormal.png" hotimage="NormalBtnHover.png" pushedimage="NormalBtnPushed.png" disabledimage="NormalBtnDisabled.png" font="6"/> 
+					</HorizontalLayout>
+					<Control />
+				</VerticalLayout>
+			</VerticalLayout>
+			<VerticalLayout>
+				<Label text="WPS邮箱已卸载成功" align="center" textcolor="#00FFFFFF" font="1"/>
+				<Label text="请选择您卸载的原因，希望在我们改进之后您愿意再次选择我们的产品" align="center" textcolor="#00FFFFFF" font="1"/>
+				<HorizontalLayout padding="42,50,0,0">
+					<VerticalLayout>
+						<Label text="邮箱登陆问题" textcolor="#00FFFFFF" font="1"/>
+						<CheckBox name="1cb" text="无法登录QQ邮箱" textcolor="#00999999" width="225" padding="0,12,0,0"/>
+						<CheckBox name="2cb" text="无法登录163邮箱" textcolor="#00999999" width="225" padding="0,12,0,0"/>
+						<CheckBox name="3cb" text="无法登录Exchange邮箱" textcolor="#00999999" width="225" padding="0,12,0,0"/>
+						<CheckBox name="4cb" text="无法登录Gmail邮箱" textcolor="#00999999" width="225" padding="0,12,0,0"/>
+						<CheckBox name="5cb" text="无法登录Outlook/Live邮箱" textcolor="#00999999" width="225" padding="0,12,0,0"/>
+					</VerticalLayout>
+					<VerticalLayout>
+						<Label text="功能欠缺" textcolor="#00FFFFFF" font="1"/>
+						<CheckBox name="6cb" text="缺少日历管理功能" textcolor="#00999999" width="180" padding="0,12,0,0"/>
+						<CheckBox name="7cb" text="不能导入/编辑联系人" textcolor="#00999999" width="180" padding="0,12,0,0"/>
+						<CheckBox name="8cb" text="缺少便签功能" textcolor="#00999999" width="180" padding="0,12,0,0"/>
+						<CheckBox name="9cb" text="不能修改数据保存位置" textcolor="#00999999" width="180" padding="0,12,0,0"/>
+						<CheckBox name="10cb" text="对Exchange支持不稳定" textcolor="#00999999" width="180" padding="0,12,0,0"/>
+					</VerticalLayout>
+					<VerticalLayout>
+						<Label text="其他使用问题" textcolor="#00FFFFFF" font="1"/>
+						<CheckBox name="11cb" text="频繁崩溃" textcolor="#00999999" width="150" padding="0,12,0,0"/>
+						<CheckBox name="12cb" text="运行缓慢" textcolor="#00999999" width="150" padding="0,12,0,0"/>
+						<CheckBox name="13cb" text="丢失邮件" textcolor="#00999999" width="150" padding="0,12,0,0"/>
+						<CheckBox name="14cb" text="邮件显示乱码" textcolor="#00999999" width="150" padding="0,12,0,0"/>
+						<CheckBox name="15cb" text="新邮件通知不及时" textcolor="#00999999" width="150" padding="0,12,0,0"/>
+					</VerticalLayout>
+				</HorizontalLayout>
+				<HorizontalLayout height="30" padding="42,0,0,35">
+					<Edit name="otherQuestion" tipvalue="请填写其他原因" tipvaluecolor="#00666666" height="30" width="220" bordersize="1" bkcolor="#FF3B3E40" bordercolor="#FF999999" textcolor="#FFFFFFFF" borderround="2,2"/>
+					<Label text="联系方式：" textcolor="#00FFFFFF" width="80" padding="10,0,0,0" font="1"/>
+					<Combo name="feedbackTypeCom" droptype="droplist" width="100" height="28" padding="0,0,10,0" itemtextcolor="#00FFFFFF" itemhottextcolor="#00FFFFFF" itemselectedtextcolor="#00FFFFFF" itembkcolor="#FF3D4144" itemselectedbkcolor="#FF474b4e" itemhotbkcolor="#FF5a6064" textpadding="4,1,1,1"  normalimage="combox.png" hotimage="combox_hover.png" pushedimage="combox_pressed.png"  borderround="2,2">
+						<ListLabelElement text="QQ" height="28"/>
+						<ListLabelElement text="邮箱" height="28"/>
+						<ListLabelElement text="手机" height="28"/>
+					</Combo>
+					<Edit name="feedbackNum" height="30" width="158" bordersize="1" bordercolor="#FF999999" bkcolor="#FF3B3E40" textcolor="#00FFFFFF" borderround="2,2"/>
+				</HorizontalLayout>
+				<VerticalLayout bkcolor="#FF474B4E" height="85">
+					<Control />
+					<HorizontalLayout height="32" padding="0,0,20,0">
+						<Control />
+						<Button name="completeBtn" text="完成" textcolor="#FFFFFFFF" width="112" height="32" padding="16,0,0,0" normalimage="NormalBtnNormal.png" hotimage="NormalBtnHover.png" pushedimage="NormalBtnPushed.png" disabledimage="NormalBtnDisabled.png" font="6"/> 
+					</HorizontalLayout>
+					<Control />
+				</VerticalLayout>
+			</VerticalLayout>
+		</AnimationTabLayout>
+	</VerticalLayout>
+</Window>

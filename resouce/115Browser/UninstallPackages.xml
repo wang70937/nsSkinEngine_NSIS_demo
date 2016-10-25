@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="457,462" sizebox="0,0,0,0" caption="0,0,0,240" showshadow="true" shadowactiveimage="shadow_active.png" shadowdeactiveimage="shadow_deactive.png" shadowcorner="28,28,28,28">
+    <Font name="宋体" size="12" bold="false" italic="false" default="true"/>
+    <Font name="宋体" size="16" bold="false" italic="false" />
+    <Font name="宋体" size="12" bold="false" italic="false" />
+    <Font name="宋体" size="12" bold="true" italic="false" />
+    <Font name="宋体" size="12" bold="false" italic="false" />
+    <Font name="宋体" size="14" bold="true" italic="false" />
+	<Default name="CheckBox" value="textcolor=&quot;#FF9ca1a4&quot; disabledtextcolor=&quot;#FF888888&quot; width=&quot;100&quot; height=&quot;13&quot; textpadding=&quot;20,1,0,0&quot; align=&quot;left&quot; normalimage=&quot;file='checkbox_unchecked_normal.png' dest='0,0,13,13'&quot; hotimage=&quot;file='checkbox_unchecked_hover.png' dest='0,0,13,13'&quot; pushedimage=&quot;file='checkbox_unchecked_pressed.png' dest='0,0,13,13'&quot; disabledimage=&quot;file='check_disable.png' dest='0,0,13,13'&quot; selectedimage=&quot;file='checkbox_checked_normal.png' dest='0,0,13,13'&quot; selectedhotimage=&quot;file='checkbox_checked_hover.png' dest='0,0,13,13'&quot; selectedpushedimage=&quot;file='checkbox_checked_pressed.png' dest='0,0,13,13'&quot; autocalcwidth=&quot;true&quot;"/>
+    <VerticalLayout name="windowbk" bkimage="bg.png">
+		<VerticalLayout height="300" bkimage="BG_install_uninstall.png">
+			<HorizontalLayout height="24">
+				<Button name="sysCloseBtn" float="true" pos="433,0,0,0" width="24" height="24" normalimage="popup_button_close_normal.png" hotimage="popup_button_close_hover.png" pushedimage="popup_button_close_pressed.png" /> 
+			</HorizontalLayout>
+			<Control height="164" />
+			<Label text="版本：v6.0.0.95" textcolor="#FFFFFFFF" align="center" />
+			<Label text="确定要移除115浏览器及其所有的组件吗？" textcolor="#FFFFFFFF" align="center" />
+			<Control />
+		</VerticalLayout>
+		<AnimationTabLayout name="WizardTab" height="162"  padding="13,0,13,0">
+			<VerticalLayout>
+				<Control />
+				<HorizontalLayout>
+					<Control />
+					<Button name="okUninstallBtn" text="立即卸载" textcolor="#FFFFFFFF" width="112" height="32" normalimage="WNormalBtnNormal.png" hotimage="WNormalBtnHover.png" pushedimage="WNormalBtnPushed.png" />
+					<Button name="cancelUninstallBtn" text="取消卸载" textcolor="#FFFFFFFF" width="112" height="32" padding="10,0,0,0" normalimage="NormalBtnNormal.png" hotimage="NormalBtnHover.png" pushedimage="NormalBtnPushed.png" /> 
+					<Control />
+				</HorizontalLayout>
+				<Control />
+			</VerticalLayout>
+			<VerticalLayout>
+				<Control />
+				<Progress name="UnInstallProgressBar" height="3" bkimage="file='progress_gray.png' corner='3,0,7,0'" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" foreimage="file='progress_green.png' corner='3,0,70,0'" min="0" max="100" value="0" hor="true" />
+				<Label name="progressText" text="0%" width="200" height="22" textcolor="#FF29bd8b" font="3" align="center" />
+				<Control />
+			</VerticalLayout>
+			<VerticalLayout>
+				<Control />
+				<HorizontalLayout>
+					<Control />
+					<Button name="completeBtn" text="卸载完成" textcolor="#FFFFFFFF" width="112" height="32" normalimage="NormalBtnNormal.png" hotimage="NormalBtnHover.png" pushedimage="NormalBtnPushed.png" /> 
+					<Control />
+				</HorizontalLayout>
+				<Control />
+			</VerticalLayout>
+		</AnimationTabLayout>
+	</VerticalLayout>
+</Window>
